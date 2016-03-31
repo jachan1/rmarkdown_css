@@ -59,25 +59,6 @@ table, td, th {
     overflow: hidden;
 }
 
-tr:hover {
-  background-color: #ffa;
-}
-
-td, th {
-  position: relative;
-}
-td:hover::after,
-th:hover::after {
-  content: "";
-  position: absolute;
-  background-color: #ffa;
-  left: 0;
-  top: -5000px;
-  height: 10000px;
-  width: 100%;
-  z-index: -1;
-}
-
 table.tirc_table {
     line-height: 150%;
     margin-left:auto; 
@@ -90,7 +71,7 @@ table.tirc_table tbody td{
     padding-bottom: 6px;
 }
 
-table.tirc_table .high_row {
+table.tirc_table .high_row tr{
     background-color: #DBE5F1;
 }
 
