@@ -1,6 +1,9 @@
+body {
+   background-color: white;
+}
+
 body, td {
    font-family: sans-serif;
-   background-color: white;
    font-size: 12px;
    margin: 8px;
 }
@@ -73,6 +76,10 @@ table.tirc_table tbody td{
 
 table.tirc_table .high_row tr{
     background-color: #DBE5F1;
+}
+
+table.tirc_table tr:hover {
+  background-color: #ffff99;
 }
 
 table.tirc_table th {
