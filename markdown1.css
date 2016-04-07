@@ -56,10 +56,20 @@ code.r, code.cpp {
 }
 
 table, td, th {
-  border: none;
+    border: none;
     padding-right: 10px;
     padding-left: 10px;
     overflow: hidden;
+    page-break-after:auto
+}
+
+tr, td {
+   page-break-inside:avoid; 
+   page-break-after:auto
+}
+
+thead {
+   display:table-header-group
 }
 
 table.tirc_table {
