@@ -1,3 +1,9 @@
+.main-container {
+  max-width: 940px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
 body {
    background-color: white;
 }
