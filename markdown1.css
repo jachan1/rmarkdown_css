@@ -2,12 +2,6 @@ body {
    background-color: white;
 }
 
-body .main-container {
-  max-width: 940px;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
 body, td {
    font-family: sans-serif;
    font-size: 10pt;
