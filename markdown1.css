@@ -152,6 +152,21 @@ hr {
    img { 
       max-width: 100% !important; 
    }
+   
+   div.header {
+    display: block; text-align: center; 
+    position: running(header);
+   }
+   div.footer {
+       display: block; text-align: center;
+       position: running(footer);
+   }
+   @page {
+       @top-center { content: element(header) }
+   }
+   @page { 
+       @bottom-center { content: element(footer) }
+   }
 
    @page :left { 
       margin: 15mm 20mm 15mm 10mm; 
